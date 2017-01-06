@@ -1,0 +1,70 @@
+
+body {
+    font-size: 3em;
+    background-color: #cfe2f3;
+    align-content: center;
+    display: flex;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 1.4em;
+}
+
+a,a:focus, a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.ion-ios-star{
+    font-size: 2em;
+    color: white;
+}
+.panel-round{
+    border-radius: 1.2em;
+}
+.panel-round-body{
+    padding-left: 1em;
+}
+.panel-bottom-padding{
+    padding-bottom: 4em;
+}
+img {
+    align-content: center;
+    display: flex;
+    margin: auto;
+    max-height: 20vw;
+    padding-bottom: 10vw;
+}
+
+.btn-danger {
+    box-shadow: 10px;
+    border-radius: 16px;
+    font-size: 3vw;
+    background-color: #ff9900;
+    border-color: #ac2925;
+    color: black;
+    align-content: center;
+    display: inherit;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.btn-danger:hover,
+.btn-danger::active {
+    color: white;
+    background: rgb(237, 27, 36);
+    border-color: rgb(237, 27, 36);
+}
+
+.panel {
+    margin: 20px;
+}
+
+.panel-info {
+    background: #3d85c6;
+}
+
+.panel-info h1 {
+    color: black;
+}
